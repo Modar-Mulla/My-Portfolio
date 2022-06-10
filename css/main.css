@@ -688,7 +688,7 @@ main .content .text {
   color: var(--box-text);
   line-height: 1.5;
 }
-.contact .about-me button {
+.contact .about-me .resume {
   border: none;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -701,7 +701,7 @@ main .content .text {
   margin-bottom: 50px;
   cursor: pointer;
 }
-.contact .about-me button:hover {
+.contact .about-me .resume:hover {
   animation: button-beat 1s linear alternate infinite;
   -webkit-animation: button-beat 1s linear alternate infinite;
 }
@@ -822,7 +822,7 @@ main .content .text {
   -o-transition: 0.3s;
 }
 
-.contact input[type="submit"] {
+.contact .hire {
   color: white;
   background-color: var(--border-color);
   padding: 10px 20px;
@@ -848,7 +848,7 @@ main .content .text {
   font-weight: normal;
   opacity: 0.4;
 }
-.contact input[type="submit"]:hover {
+.contact .hire:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -872,7 +872,7 @@ main .content .text {
   .contact .about-me h1 {
     margin-bottom: 30px;
   }
-  .contact .about-me button {
+  .contact .about-me .resume {
     max-width: 200px;
     align-self: center;
   }
