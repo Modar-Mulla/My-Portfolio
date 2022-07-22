@@ -86,6 +86,10 @@ body {
   opacity: 1;
   pointer-events: all;
 }
+
+.bottom-svg,.up-svg{
+  background-color: var(--background);
+}
 /* Small */
 
 @media (min-width: 768px) {
@@ -475,6 +479,7 @@ main .content .text {
     font-size: 4em;
   }
 }
+
 /* End Projects */
 
 /* Start Skills */
@@ -924,6 +929,8 @@ main .content .text {
       font-size: 1.2em;
     }
   }
+}
+.up-svg {
 }
 /* End Contact */
 
