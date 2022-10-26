@@ -706,6 +706,9 @@ main .content .text {
   margin-bottom: 50px;
   cursor: pointer;
 }
+.contact .about-me .resume a{
+  color: white;
+}
 .contact .about-me .resume:hover {
   animation: button-beat 1s linear alternate infinite;
   -webkit-animation: button-beat 1s linear alternate infinite;
