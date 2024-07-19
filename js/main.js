@@ -24,14 +24,7 @@ const bottomSvg = document.querySelector(".bottom-svg path");
 const upSvg = document.querySelectorAll(".up-svg path");
 
 const switchToDark = () => {
-  document.body.classList.add("dark-mode");
-  bottomSvg.style.fill = "#ff6d00";
-  bottomSvg.parentNode.style.backgroundColor = "#034078";
-  upSvg.forEach(e => {
-    e.style.fill = "#ff6d00";
-    e.parentNode.style.backgroundColor = "#034078";
-  });
-  
+  document.body.classList.add("dark-mode"); 
 };
 const switchToLight = () => {
   document.body.classList.remove("dark-mode");
